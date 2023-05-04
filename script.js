@@ -1,4 +1,4 @@
-//get fib number
+// Generate fibonacci number based on its number in the sequence
 
 function fibonacci(n) {
 	if (n == 1) {
@@ -10,7 +10,7 @@ function fibonacci(n) {
 	}
 }
 
-//better function
+// Generate array of fibonacci numbers up to number in the sequence
 
 function fibonacciArray(length, firstNumber = 0, secondNumber = 1, myArray = []) {
     if (length === 0) {
@@ -20,7 +20,7 @@ function fibonacciArray(length, firstNumber = 0, secondNumber = 1, myArray = [])
     return fibonacciArray(length - 1, secondNumber, firstNumber + secondNumber, myArray);
 }
 
-//merge sort recursive
+// Reclusive function that merge sorts an array
 
 function mergeSort(array) {
     if (array.length <= 1) {
